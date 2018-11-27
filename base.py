@@ -19,7 +19,8 @@ for value in d.values():
 
 for k, v in d.items():
     print(k, ':', v)
-
+# isinstance 和 instance
+# typeof 检测基本数据类型
 from collections import Iterable
 print(isinstance('abc', Iterable))
 print(isinstance([1,2,3], Iterable))
